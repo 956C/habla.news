@@ -9,7 +9,7 @@ import {
   Icon,
 } from "@chakra-ui/react";
 import { useHover } from "usehooks-ts";
-import Logo from "@habla/icons/Logo";
+import Logo from "@habla/icons/LogoPareto";
 import LogoAnimated from "@habla/icons/LogoAnimated";
 
 const Login = dynamic(() => import("@habla/components/nostr/Login"), {
@@ -32,7 +32,8 @@ export default function Header(props: FlexProps) {
         <Link href="/" shallow ref={ref}>
           <Icon
             boxSize={14}
-            as={isHovering ? LogoAnimated : Logo}
+            as={Logo}
+//            as={isHovering ? LogoAnimated : Logo}
             fill={logoColor}
           />
         </Link>

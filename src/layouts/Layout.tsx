@@ -38,7 +38,7 @@ export default function Layout({ aside, children }) {
         <GridItem area={"header"}>
           <Header />
         </GridItem>
-        <GridItem area={"nav"} borderRight={{ md: `1px solid ${borderColor}` }}>
+        <GridItem area={"nav"} borderRight={{ md: `1px solid ${borderColor}` }} backgroundColor={"#d0d0d0"}>
           <Nav />
         </GridItem>
         <GridItem area={"main"}>

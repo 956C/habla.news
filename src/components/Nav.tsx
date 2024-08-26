@@ -15,6 +15,7 @@ import ReadIcon from "@habla/icons/Read";
 import BookmarkIcon from "@habla/icons/Bookmark";
 import SearchIcon from "@habla/icons/Search";
 import CommunitiesIcon from "@habla/icons/Community";
+import WriteIcon from "@habla/icons/Write";
 
 export default function Nav() {
   const { t } = useTranslation("common");
@@ -97,6 +98,14 @@ export default function Nav() {
           sx={navIcon}
         />
         <Text sx={navLinkText}>{t("nav-bookmarks")}</Text>
+      </Box>
+      <Box as={Link} href="/write" sx={getLinkSX("/write")} shallow>
+        <IconButton
+          aria-label={t("nav-write")}
+          icon={<WriteIcon />}
+          sx={navIcon}
+        />
+        <Text sx={navLinkText}>{t("nav-write")}</Text>
       </Box>
     </Flex>
   );
