@@ -163,7 +163,7 @@ function PublishModal({
       }
       if (!isDraft && !ndkEvent.tagValue("alt")) {
         link = articleLink(ndkEvent);
-        const altText = `This is a long form article, you can read it in https://habla.news${link}`;
+        const altText = `This is a long form article, you can read it in https://pareto-showcase.onrender.com${link}`;
         ndkEvent.tags.push([
           "alt",
           summary?.length > 0 ? `${summary}\n\n${altText}` : altText,
