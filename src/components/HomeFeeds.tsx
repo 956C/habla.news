@@ -32,7 +32,8 @@ import UsersIcon from "@habla/icons/Users";
 import RelayIcon from "@habla/icons/Relay";
 import GlobeIcon from "@habla/icons/Globe";
 import HeartIcon from "@habla/icons/Heart";
-import { LONG_FORM, HIGHLIGHT } from "@habla/const";
+import ParetoIcon from "@habla/icons/LogoPareto";
+import { LONG_FORM, LONG_FORM_DRAFT, HIGHLIGHT } from "@habla/const";
 import {
   pubkeyAtom,
   followsAtom,
@@ -51,6 +52,8 @@ import { useNeedsBackup } from "@habla/onboarding/hooks";
 import useRelayMetadata from "@habla/hooks/useRelayMetadata";
 import { toPubkey } from "@habla/util";
 
+const paretoTag = "pareto";
+
 enum Feeds {
   Featured = "Featured",
   All = "All",
@@ -58,7 +61,7 @@ enum Feeds {
   Follows = "Follows",
   PeopleList = "PeopleList",
   //Community = "Community",
-  Relay = "Relay",
+  Relay = "Relay"
 }
 
 function feedIcon(f: Feeds) {
@@ -288,10 +291,9 @@ export default function HomeFeeds() {
     if (feed === Feeds.Follows && follows.length > 0) {
       return {
         id: `follows-${pubkey}-${kinds.join("-")}`,
-        filter: {
-          kinds,
-          authors: follows,
-        },
+        filter: tag ?
+          { kinds, "#t": [tag], authors: follows } :
+          { kinds, authors: follows },
       };
     }
 
@@ -312,10 +314,9 @@ export default function HomeFeeds() {
     if (feed === Feeds.Featured) {
       return {
         id: `featured-${kinds.join("-")}`,
-        filter: {
-          kinds,
-          authors: featuredPubkeys,
-        },
+        filter: tag ?
+          { kinds, "#t": [tag], authors: featuredPubkeys } :
+          { kinds, authors: featuredPubkeys },
         limit: 5,
       };
     }
@@ -398,18 +399,25 @@ export default function HomeFeeds() {
       >
         <ButtonGroup>
           <Button
-            colorScheme={kinds.includes(LONG_FORM) ? "purple" : null}
-            onClick={() => setKinds([LONG_FORM])}
+            colorScheme={kinds.includes(LONG_FORM) && !tag ? "purple" : null}
+            onClick={() => {setKinds([LONG_FORM]); setTag(null)}}
             fontWeight="normal"
           >
             {t("articles")}
           </Button>
           <Button
             colorScheme={kinds.includes(HIGHLIGHT) ? "purple" : null}
-            onClick={() => setKinds([HIGHLIGHT])}
+            onClick={() => {setKinds([HIGHLIGHT]); setTag(null)}}
             fontWeight="normal"
           >
             {t("highlights")}
+          </Button>
+          <Button
+            colorScheme={tag === paretoTag ? "purple" : null}
+            onClick={() => {setKinds([LONG_FORM, LONG_FORM_DRAFT]); setTag(paretoTag)}}
+            fontWeight="normal"
+          >
+            {"Pareto"}
           </Button>
         </ButtonGroup>
         {feedSelector}
