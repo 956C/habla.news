@@ -10,11 +10,13 @@ import { uniqByFn } from "@habla/util";
 import { findTag } from "@habla/tags";
 
 const relays = [
-  "wss://relay.snort.social",
-  "wss://relay.damus.io/",
-  "wss://nostr.wine/",
-  "wss://nos.lol/",
-  "wss://soloco.nl/",
+  "wss://nostr-pareto.self-determined.de",
+  "wss://synalysis.nostr1.com",
+  "wss://nostr.synalysis.com",
+  "wss://nos.lol",
+  "wss://offchain.pub",
+  "wss://relay.damus.io",
+  "wss://nostr.wine",
 ];
 
 const ndk = new NDK({
