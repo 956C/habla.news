@@ -5,7 +5,6 @@ export const names = {
   getalby: "4657dfe8965be8980a93072bcfb5e59a65124406db0f819215ee78ba47934b3e",
   verbiricha:
     "7fa56f5d6962ab1e3cd424e758c3002b8665f7b0d8dcee9fe9e288d7751ac194",
-  tony: "7f5c2b4e48a0e9feca63a46b13cdb82489f4020398d60a2070a968caa818d75d",
   moon: "5df413d4c5e5035ff508fd99b38b21ea9a0ac0b9ecc34f3312aba9aa2add4f5b",
   dergigi: "6e468422dfb74a5738702a8823b9b28168abab8655faacb6853cd0ee15deee93",
   corndalorian:
@@ -56,7 +55,6 @@ export const featured = [
   "dergigi",
   "guyswann",
   "karnage",
-  "tony",
   "milosz",
   "moon",
   "nostreport",
