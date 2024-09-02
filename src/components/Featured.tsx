@@ -88,7 +88,21 @@ function PurpleText() {
   );
 }
 
+function Mahlstrom() {
+  return (
+    <Featured
+      naddr={
+        "naddr1qvzqqqr4gupzphlqyp5jyr3l0g96dajplsmvh00r5ssyffkvnt4uffzfj0f7973fqy88wumn8ghj7mn0wvhxcmmv9uq3kamnwvaz7tmn09hxzmrewd5hxtnwdaehgu339e3k7mf0qyd8wumn8ghj7mn0wd68ytnn09hxzmrewd5hxtnrdakj7qg4waehxw309aex2mrp0yhxgctdw4eju6t09uqq6vfhxg6nywfs8qcnjvfexgppw0lk"
+      }
+      kind={30023}
+      pubkey="dfe02069220e3f7a0ba6f641fc36cbbde3a42044a6cc9aebc4a44993d3e2fa29"
+      identifier="1725290819192"
+    />
+  );
+}
+
 const featuredAuthors = [
+  "dfe02069220e3f7a0ba6f641fc36cbbde3a42044a6cc9aebc4a44993d3e2fa29",
   "6e468422dfb74a5738702a8823b9b28168abab8655faacb6853cd0ee15deee93",
   "b9e76546ba06456ed301d9e52bc49fa48e70a6bf2282be7a1ae72947612023dc",
   "7f5c2b4e48a0e9feca63a46b13cdb82489f4020398d60a2070a968caa818d75d",
@@ -123,6 +137,7 @@ export default function FeaturedArticles() {
     <>
       <SectionHeading>{t("popular-posts")}</SectionHeading>
       <Stack spacing={4}>
+        <Mahlstrom />
         <PurpleText />
         <NostrTree />
         <NativeInternetProtocolForSocialMedia />
