@@ -34,6 +34,8 @@ export const defaultRelays = [
   "wss://nostr-pareto.self-determined.de",
   "wss://synalysis.nostr1.com",
   "wss://nostr.synalysis.com",
+  "wss://relay.snort.social",
+  "wss://relay.damus.io",
   "wss://nos.lol",
   "wss://offchain.pub",
   "wss://relay.damus.io",
