@@ -154,7 +154,8 @@ export default function HomeFeeds() {
   const isLoggedIn = pubkey && follows.length > 0;
   const [kinds, setKinds] = useState([LONG_FORM]);
   const hasFollows = pubkey && follows.length > 0;
-  const [feed, setFeed] = useState(hasFollows ? Feeds.Follows : Feeds.Featured);
+  const [feed, setFeed] = useState(Feeds.All);
+  // const [feed, setFeed] = useState(hasFollows ? Feeds.Follows : Feeds.Featured);
   const needsBackup = useNeedsBackup();
   const lists = useMemo(() => {
     return Object.entries(peopleLists);
@@ -400,21 +401,21 @@ export default function HomeFeeds() {
         <ButtonGroup>
           <Button
             colorScheme={kinds.includes(LONG_FORM) && !tag ? "purple" : null}
-            onClick={() => {setKinds([LONG_FORM]); setTag(null)}}
+            onClick={() => {setKinds([LONG_FORM]); setTag(null); setFeed(Feeds.All); }}
             fontWeight="normal"
           >
             {t("articles")}
           </Button>
           <Button
             colorScheme={kinds.includes(HIGHLIGHT) ? "purple" : null}
-            onClick={() => {setKinds([HIGHLIGHT]); setTag(null)}}
+            onClick={() => {setKinds([HIGHLIGHT]); setTag(null); setFeed(Feeds.All); }}
             fontWeight="normal"
           >
             {t("highlights")}
           </Button>
           <Button
             colorScheme={tag === paretoTag ? "purple" : null}
-            onClick={() => {setKinds([LONG_FORM, LONG_FORM_DRAFT]); setTag(paretoTag)}}
+            onClick={() => {setKinds([LONG_FORM, LONG_FORM_DRAFT]); setTag(paretoTag); setFeed(Feeds.Featured); }}
             fontWeight="normal"
           >
             {"Pareto"}
