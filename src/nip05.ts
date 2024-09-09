@@ -58,8 +58,7 @@ export const featured = [
   "milosz",
   "moon",
   "nostreport",
-  "getalby",
-  "verbiricha",
+  "getalby"
 ];
 
 export const featuredPubkeys = featured.map(getPubkey);
