@@ -21,7 +21,7 @@ export default function Thread({ anchor }) {
         user={npub}
         relays={defaultRelays.join(',')}
         disable="likes,zaps"
-        urls="naddr:habla.news/a/,npub:habla.news/p/,nprofile:habla.news/p/,nevent:habla.news/e/,note:habla.news/n/,tag:habla.news/t/"
+        urls="naddr:showcase.pareto.space/a/,npub:showcase.pareto.space/p/,nprofile:showcase.pareto.space/p/,nevent:showcase.pareto.space/e/,note:showcase.pareto.space/n/,tag:showcase.pareto.space/t/"
       />
     </Box>
   );

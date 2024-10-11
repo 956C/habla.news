@@ -31,9 +31,8 @@ export const relayListAtom = atomWithStorage<NostrEvent | null>(
   null
 );
 export const defaultRelays = [
-  "wss://nostr-pareto.self-determined.de",
-  "wss://synalysis.nostr1.com",
-  "wss://nostr.synalysis.com",
+  "wss://nostr.pareto.space",
+  "wss://pareto.nostr1.com",
   "wss://relay.snort.social",
   "wss://relay.damus.io",
   "wss://nos.lol",

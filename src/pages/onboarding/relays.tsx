@@ -11,7 +11,7 @@ const Relays = dynamic(() => import("@habla/onboarding/Relays"), {
 
 export default function OnboardingRelays() {
   const { t } = useTranslation("common");
-  const url = "https://habla.news/onboarding/relays";
+  const url = "https://showcase.pareto.space/onboarding/relays";
   const metadata = {
     title: t("add-relays"),
   };

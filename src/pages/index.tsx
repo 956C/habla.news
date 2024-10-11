@@ -16,7 +16,7 @@ const HomeFeeds = dynamic(() => import("@habla/components/HomeFeeds"), {
 
 export default function Index() {
   const { t } = useTranslation("common");
-  const url = "https://habla.news";
+  const url = "https://showcase.pareto.space";
   const metadata = {
     title: t("habla"),
     summary: t("tagline"),

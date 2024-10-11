@@ -18,7 +18,7 @@ export default function NotePage() {
   const { note } = router.query;
   const id = decodeNote(note);
 
-  const url = `https://habla.news/n/${note}`;
+  const url = `https://showcase.pareto.space/n/${note}`;
   const metadata = {
     title: t("habla"),
     summary: t("tagline"),

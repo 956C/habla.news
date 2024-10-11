@@ -407,18 +407,18 @@ export default function HomeFeeds() {
             {t("articles")}
           </Button>
           <Button
-            colorScheme={kinds.includes(HIGHLIGHT) ? "purple" : null}
-            onClick={() => {setKinds([HIGHLIGHT]); setTag(null); setFeed(Feeds.All); }}
-            fontWeight="normal"
-          >
-            {t("highlights")}
-          </Button>
-          <Button
             colorScheme={tag === paretoTag ? "purple" : null}
             onClick={() => {setKinds([LONG_FORM, LONG_FORM_DRAFT]); setTag(paretoTag); setFeed(Feeds.Featured); }}
             fontWeight="normal"
           >
             {"Pareto"}
+          </Button>
+          <Button
+            colorScheme={kinds.includes(HIGHLIGHT) ? "purple" : null}
+            onClick={() => {setKinds([HIGHLIGHT]); setTag(null); setFeed(Feeds.All); }}
+            fontWeight="normal"
+          >
+            {t("highlights")}
           </Button>
         </ButtonGroup>
         {feedSelector}

@@ -31,11 +31,11 @@ export default function Metadata({
       {metadata.image ? (
         <meta name="og:image" content={metadata.image} />
       ) : (
-        <meta name="og:image" content="https://habla.news/family.png" />
+        <meta name="og:image" content="https://showcase.pareto.space/family.png" />
       )}
 
       {url && <meta name="twitter:url" content={url} />}
-      <meta property="twitter:domain" content="habla.news" />
+      <meta property="twitter:domain" content="showcase.pareto.space" />
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={metadata.title} />
       {metadata.summary && (
@@ -44,7 +44,7 @@ export default function Metadata({
       {metadata.image ? (
         <meta name="twitter:image" content={metadata.image} />
       ) : (
-        <meta name="twitter:image" content="https://habla.news/family.png" />
+        <meta name="twitter:image" content="https://showcase.pareto.space/family.png" />
       )}
     </Head>
   );

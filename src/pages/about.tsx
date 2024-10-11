@@ -9,12 +9,12 @@ const Address = dynamic(() => import("@habla/components/nostr/Address"), {
   ssr: false,
 });
 
-export default function FAQ() {
+export default function About() {
   const { t } = useTranslation("common");
-  const url = "https://showcase.pareto.space/faq";
+  const url = "https://showcase.pareto.space/about";
   const metadata = {
-    title: t("faq"),
-    summary: t("faq-summary"),
+    title: t("about"),
+    summary: t("about-summary"),
   };
   return (
     <>

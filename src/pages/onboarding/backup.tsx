@@ -10,7 +10,7 @@ const Backup = dynamic(() => import("@habla/onboarding/backup"), {
 
 export default function OnboardingProgress() {
   const { t } = useTranslation("common");
-  const url = "https://habla.news/onboarding/backup";
+  const url = "https://showcase.pareto.space/onboarding/backup";
   const metadata = {
     title: t("backup-keys"),
   };

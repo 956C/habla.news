@@ -1,6 +1,6 @@
 {
   "what-is-habla": "Was ist Pareto?",
-  "habla-description": "Pareto ist eine auf Nostr basierende Web-App, die es allen ermöglicht, mit Texten Geld zu verdienen.",
+  "pareto-description": "Pareto ist die Open Source-Plattform für unzensierbare, investigative Beiträge. Pareto baut auf Nostr, Lightning und eCash auf.",
   "intro": "2 Minuten Einleitung",
   "popular-posts": "Beliebte Artikel",
   "popular-authors": "Beliebte Autoren",
@@ -55,7 +55,7 @@
   "delete": "Löschen",
   "files": "Dateien",
   "auth": "Authentifizierung",
-  "search-description": "Füge eine Nostr-ID (npub, nprofile, nevent oder naddr), Nostr-Adresse (tony@habla.news) oder eine URL mit einer Nostr-ID ein, um sie in Pareto zu sehen.",
+  "search-description": "Füge eine Nostr-ID (npub, nprofile, nevent oder naddr), Nostr-Adresse (tony@showcase.pareto.space) oder eine URL mit einer Nostr-ID ein, um sie in Pareto zu sehen.",
   "search-more": "Hashtags werden unterstützt, setze ein # vor einen Begriff, um nach Hashtags zu filtern.",
   "search-placeholder": "URL, Nostr-ID oder Nostr-Adresse",
   "search-communities-placeholder": "Nach Communities suchen",
@@ -216,6 +216,7 @@
   "nav-communities": "Communities",
   "nav-bookmarks": "Lesezeichen",
   "nav-write": "Schreiben",
+  "nav-about": "Über",
   "nostr-apps": "Apps",
   "nostr-link": "Nostr-Link",
   "read-only": "Dein Konto ist im schreibgeschützten Modus. Stelle sicher, dass Pareto Events signieren kann und versuche es erneut."

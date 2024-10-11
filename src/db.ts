@@ -10,9 +10,8 @@ import { uniqByFn } from "@habla/util";
 import { findTag } from "@habla/tags";
 
 const relays = [
-  "wss://nostr-pareto.self-determined.de",
-  "wss://synalysis.nostr1.com",
-  "wss://nostr.synalysis.com",
+  "wss://nostr.pareto.space",
+  "wss://pareto.nostr1.com",
   "wss://relay.snort.social",
   "wss://relay.damus.io",
   "wss://nos.lol",

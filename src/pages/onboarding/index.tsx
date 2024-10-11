@@ -10,7 +10,7 @@ const Progress = dynamic(() => import("@habla/onboarding/Progress"), {
 
 export default function OnboardingProgress() {
   const { t } = useTranslation("common");
-  const url = "https://habla.news/onboarding";
+  const url = "https://showcase.pareto.space/onboarding";
   const metadata = {
     title: t("onboarding"),
   };

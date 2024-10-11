@@ -15,7 +15,7 @@ export default function Hero() {
     >
       <Heading fontSize="xl">{t("what-is-habla")}</Heading>
       <Text fontSize="md" fontWeight={400}>
-        {t("habla-description")}
+        {t("pareto-description")}
       </Text>
       <Link href={`/faq`} shallow>
         <Button variant="solid" bg="rgba(94, 48, 224, 0.20)" maxWidth="12rem">

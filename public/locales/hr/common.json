@@ -1,6 +1,6 @@
 {
   "what-is-habla": "What is Pareto?",
-  "habla-description": "Pareto is a nostr-based web app that enables anyone to earn from their writing.",
+  "pareto-description": "Pareto is a nostr-based web app that enables anyone to earn from their writing.",
   "intro": "2 min intro",
   "popular-posts": "Popular posts",
   "popular-authors": "Popular authors",
@@ -55,7 +55,7 @@
   "delete": "Delete",
   "files": "Files",
   "auth": "Auth",
-  "search-description": "Paste a nostr ID (npub, nprofile, note, nevent or naddr), nostr address (tony@habla.news) or a URL with a nostr ID to see it in Pareto",
+  "search-description": "Paste a nostr ID (npub, nprofile, note, nevent or naddr), nostr address (tony@showcase.pareto.space) or a URL with a nostr ID to see it in Pareto",
   "search-more": "Hashtags are supported, use a #in front of a term to filter by hashtags.",
   "search-placeholder": "URL, nostr ID or nostr address",
   "search-communities-placeholder": "Search for communities",
@@ -215,6 +215,7 @@
   "nav-search": "Search",
   "nav-communities": "Communities",
   "nav-bookmarks": "Bookmarks",
+  "nav-about": "About",
   "nostr-apps": "Apps",
   "nostr-link": "Nostr link",
   "read-only": "Your account is in read-only mode. Make sure Pareto can sign events and try again."

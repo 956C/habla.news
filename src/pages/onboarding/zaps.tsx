@@ -11,7 +11,7 @@ const Zaps = dynamic(() => import("@habla/onboarding/Zaps"), {
 
 export default function OnboardingProfile() {
   const { t } = useTranslation("common");
-  const url = "https://habla.news/onboarding/zaps";
+  const url = "https://showcase.pareto.space/onboarding/zaps";
   const metadata = {
     title: t("discover-zaps"),
   };

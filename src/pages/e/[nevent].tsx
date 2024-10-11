@@ -21,7 +21,7 @@ export default function Nevent() {
   const { nevent } = router.query;
   const { id, author, relays } = decodeNevent(nevent) ?? {};
 
-  const url = `https://habla.news/e/${nevent}`
+  const url = `https://showcase.pareto.space/e/${nevent}`
   const metadata = {
     title: t("habla"),
     summary: t("tagline"),

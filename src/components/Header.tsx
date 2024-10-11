@@ -29,7 +29,7 @@ export default function Header(props: FlexProps) {
       {...props}
     >
       <Flex alignItems="center" gap="4">
-        <Link href="/" shallow ref={ref}>
+        <Link href="/" shallow ref={ref} hidden={true}>
           <Icon
             boxSize={14}
             as={Banner}

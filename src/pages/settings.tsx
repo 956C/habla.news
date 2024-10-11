@@ -14,7 +14,7 @@ export default function SettingsPage() {
   };
   return (
     <>
-      <Metadata url="https://habla.news/settings" metadata={metadata} />
+      <Metadata url="https://showcase.pareto.space/settings" metadata={metadata} />
       <Layout>
         <Settings />
       </Layout>

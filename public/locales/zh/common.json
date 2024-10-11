@@ -1,6 +1,6 @@
 {
   "what-is-habla": "Habla 是什麼？",
-  "habla-description": "Habla 是一個基於 nostr 的網絡應用，使任何人都能從他們的寫作中獲利。",
+  "pareto-description": "Habla 是一個基於 nostr 的網絡應用，使任何人都能從他們的寫作中獲利。",
   "intro": "2分鐘入門",
   "popular-posts": "熱門帖子",
   "popular-authors": "熱門作者",
@@ -55,7 +55,7 @@
   "delete": "刪除",
   "files": "文件",
   "auth": "認證",
-  "search-description": "粘贴 nostr ID （npub、nprofile、note、nevent 或 naddr）、nostr 地址（tony@habla.news）或含有 nostr ID 的链接以在 Habla 中呈现。",
+  "search-description": "粘贴 nostr ID （npub、nprofile、note、nevent 或 naddr）、nostr 地址（tony@showcase.pareto.space）或含有 nostr ID 的链接以在 Habla 中呈现。",
   "search-more": "支持主题标签，在主题标签前使用#以按主题标签筛选。",
   "search-placeholder": "URL、 nostr ID、 nostr 地址或主题标签",
   "search-communities-placeholder": "搜索社区",
@@ -215,6 +215,7 @@
   "nav-search": "搜索",
   "nav-communities": "社区",
   "nav-bookmarks": "书签",
+  "nav-about": "About",
   "nostr-apps": "Apps",
   "nostr-link": "Nostr link",
   "read-only": "Your account is in read-only mode. Make sure Habla can sign events and try again."

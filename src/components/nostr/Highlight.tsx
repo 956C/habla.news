@@ -158,7 +158,7 @@ export default function Highlight({
               <User pubkey={pubkey} size="xs" fontSize="xs" />
             </Flex>
           )}
-          {r && !naddr && !r.startsWith("https://habla.news") && (
+          {r && !naddr && !r.startsWith("https://showcase.pareto.space") && (
             <ExternalLink href={r}>
               <Text
                 fontFamily="'Inter'"

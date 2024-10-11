@@ -11,7 +11,7 @@ const Relays = dynamic(() => import("@habla/components/nostr/Relays"), {
 
 export default function RelaysPage() {
   const { t } = useTranslation("common");
-  const url = "https://habla.news/relays";
+  const url = "https://showcase.pareto.space/relays";
   const metadata = {
     title: t("relays"),
   };

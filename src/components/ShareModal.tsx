@@ -47,8 +47,8 @@ export default function ShareModal({ event, isOpen, onClose }) {
             <Heading fontSize="xl">{t("share-url")}</Heading>
             <Text>{t("share-url-cta")}</Text>
             <InputCopy
-              copyText={`https://habla.news${link}`}
-              text={`habla.news${link}`}
+              copyText={`https://showcase.pareto.space${link}`}
+              text={`showcase.pareto.space${link}`}
             />
             <Heading fontSize="xl">{t("share-nostr")}</Heading>
             <Text>{t("share-nostr-cta")}</Text>

@@ -1,6 +1,6 @@
 {
   "what-is-habla": "Habla ni nini?",
-  "habla-description": "Habla ni programu ya wavuti isiyo na msingi ambayo huwezesha mtu yeyote kupata mapato kutokana na uandishi wake.",
+  "pareto-description": "Habla ni programu ya wavuti isiyo na msingi ambayo huwezesha mtu yeyote kupata mapato kutokana na uandishi wake.",
   "intro": "Dakika 2 utangulizi",
   "popular-posts": "Machapisho maarufu",
   "popular-authors": "Waandishi maarufu",
@@ -55,7 +55,7 @@
   "delete": "Futa",
   "files": "Mafaili",
   "auth": "Thibitisha",
-  "search-description": "Bandika kitambulisho cha nostr (npub, nprofile, note, nevent au naddr), nostr anwani (tony@habla.news) au URL iliyo na kitambulisho cha nostr ili kuiona katika Habla.",
+  "search-description": "Bandika kitambulisho cha nostr (npub, nprofile, note, nevent au naddr), nostr anwani (tony@showcase.pareto.space) au URL iliyo na kitambulisho cha nostr ili kuiona katika Habla.",
   "search-more": "Hashtag zinaauniwa, andika # mbele ya neno ili kuchuja kwa lebo za reli.",
   "search-placeholder": "URL, kitambulisho cha nostr, anwani ya nostr au lebo ya reli",
   "search-communities-placeholder": "Tafuta jumuiya",
@@ -215,6 +215,7 @@
   "nav-search": "Search",
   "nav-communities": "Communities",
   "nav-bookmarks": "Bookmarks",
+  "nav-about": "About",
   "nostr-apps": "Apps",
   "nostr-link": "Nostr link",
   "read-only": "Your account is in read-only mode. Make sure Habla can sign events and try again."

@@ -52,7 +52,7 @@ export default function Profile({
       .filter((e) => !deprecatedBookmarkLists.has(e.tagValue("d")));
   }, [events]);
 
-  const url = `https://habla.news/${handle}`;
+  const url = `https://showcase.pareto.space/${handle}`;
   const metadata = {
     title: profile?.name || handle || pubkey,
     summary: profile?.about,

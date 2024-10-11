@@ -5,12 +5,15 @@ import { useAtom } from "jotai";
 import {
   useColorModeValue,
   Flex,
+  Icon,
   IconButton,
   Box,
   Text,
 } from "@chakra-ui/react";
 
 import { pubkeyAtom } from "@habla/state";
+import AboutIcon from "@habla/icons/About";
+import Banner from "@habla/icons/ParetoBanner";
 import ReadIcon from "@habla/icons/Read";
 import BookmarkIcon from "@habla/icons/Bookmark";
 import SearchIcon from "@habla/icons/Search";
@@ -20,6 +23,7 @@ import WriteIcon from "@habla/icons/Write";
 export default function Nav() {
   const { t } = useTranslation("common");
   const [pubkey] = useAtom(pubkeyAtom);
+  const logoColor = useColorModeValue("black", "white");
   const router = useRouter();
   const path = router.pathname;
   // todo: extract to theme
@@ -68,6 +72,14 @@ export default function Nav() {
       px={[0, 0, 4, 4]}
     >
       <Box as={Link} href="/" sx={getLinkSX("/")} shallow>
+        <Icon
+          boxSize={14}
+          as={Banner}
+//            as={isHovering ? LogoAnimated : Logo}
+          fill={logoColor}
+        />
+      </Box>
+      <Box as={Link} href="/" sx={getLinkSX("/")} shallow>
         <IconButton
           icon={<ReadIcon />}
           aria-label={t("nav-read")}
@@ -83,14 +95,6 @@ export default function Nav() {
         />
         <Text sx={navLinkText}>{t("nav-search")}</Text>
       </Box>
-      <Box as={Link} href="/c" sx={getLinkSX("/c")} shallow>
-        <IconButton
-          icon={<CommunitiesIcon />}
-          aria-label={t("nav-communities")}
-          sx={navIcon}
-        />
-        <Text sx={navLinkText}>{t("nav-communities")}</Text>
-      </Box>
       <Box as={Link} href="/bookmarks" sx={getLinkSX("/bookmarks")} shallow>
         <IconButton
           aria-label={t("nav-bookmarks")}
@@ -99,13 +103,29 @@ export default function Nav() {
         />
         <Text sx={navLinkText}>{t("nav-bookmarks")}</Text>
       </Box>
-      <Box as={Link} href="/write" sx={getLinkSX("/write")} shallow>
+      <Box as={Link} href="/c" sx={getLinkSX("/c")} shallow>
+        <IconButton
+          icon={<CommunitiesIcon />}
+          aria-label={t("nav-communities")}
+          sx={navIcon}
+        />
+        <Text sx={navLinkText}>{t("nav-communities")}</Text>
+      </Box>
+      <Box as={Link} href="/write" sx={getLinkSX("/write")} shallow hidden={!pubkey}>
         <IconButton
           aria-label={t("nav-write")}
           icon={<WriteIcon />}
           sx={navIcon}
         />
         <Text sx={navLinkText}>{t("nav-write")}</Text>
+      </Box>
+      <Box as={Link} href="/about" sx={getLinkSX("/about")} shallow>
+        <IconButton
+          icon={<AboutIcon/>}
+          aria-label={t("nav-about")}
+          sx={navIcon}
+        />
+        <Text sx={navLinkText}>{t("nav-about")}</Text>
       </Box>
     </Flex>
   );

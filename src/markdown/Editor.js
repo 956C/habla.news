@@ -256,7 +256,7 @@ function PublishModal({
                 textDecoration="underline"
                 textDecorationStyle="dotted"
               >
-                <Link href={link}>{`habla.news${link}`}</Link>
+                <Link href={link}>{`showcase.pareto.space${link}`}</Link>
               </Text>
             )}
           </Stack>
@@ -487,7 +487,7 @@ export default function EventEditor({ event, showPreview }) {
           textDecorationStyle="dotted"
         >
           <Link href={`/${handle}/${slug}`}>
-            {`habla.news/${handle}/${slug}`}
+            {`showcase.pareto.space/${handle}/${slug}`}
           </Link>
         </Text>
       )}
@@ -498,7 +498,7 @@ export default function EventEditor({ event, showPreview }) {
           textDecorationStyle="dotted"
         >
           <Link href={`/u/${profile.nip05}/${slug}`}>
-            {`habla.news/u/${profile.nip05}/${slug}`}
+            {`showcase.pareto.space/u/${profile.nip05}/${slug}`}
           </Link>
         </Text>
       )}

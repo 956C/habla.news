@@ -1,6 +1,6 @@
 {
   "what-is-habla": "Che cos’è Habla?",
-  "habla-description": "Habla è una app web basata su nostr che consente a chiunque di guadagnare scrivendo.",
+  "pareto-description": "Habla è una app web basata su nostr che consente a chiunque di guadagnare scrivendo.",
   "intro": "2 minuti di introduzione",
   "popular-posts": "Post popolari",
   "popular-authors": "Autori popolari",
@@ -55,7 +55,7 @@
   "delete": "Cancella",
   "files": "Files",
   "auth": "Autenticazione",
-  "search-description": "Paste a nostr ID (npub, nprofile, note, nevent or naddr), nostr address (tony@habla.news) or a URL with a nostr ID to see it in Habla",
+  "search-description": "Paste a nostr ID (npub, nprofile, note, nevent or naddr), nostr address (tony@showcase.pareto.space) or a URL with a nostr ID to see it in Habla",
   "search-more": "Hashtags are supported, use a #in front of a term to filter by hashtags.",
   "search-placeholder": "URL, nostr ID or nostr address",
   "search-communities-placeholder": "Search for communities",
@@ -215,6 +215,7 @@
   "nav-search": "Search",
   "nav-communities": "Communities",
   "nav-bookmarks": "Bookmarks",
+  "nav-about": "About",
   "nostr-apps": "Apps",
   "nostr-link": "Nostr link",
   "read-only": "Your account is in read-only mode. Make sure Habla can sign events and try again."

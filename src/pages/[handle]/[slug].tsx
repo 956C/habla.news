@@ -32,7 +32,7 @@ export default function Post({ pubkey, profile, slug, event }) {
     );
   }
 
-  const url = `https://habla.news${articleURL(slug, pubkey, profile, true)}`;
+  const url = `https://showcase.pareto.space${articleURL(slug, pubkey, profile, true)}`;
   const metadata = getMetadata(event);
   const ndk = useNdk();
   const ev = new NDKEvent(ndk, event);

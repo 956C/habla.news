@@ -14,7 +14,7 @@ const Write = dynamic(() => import("@habla/components/Write"), {
 
 export default function WritePage() {
   const { t } = useTranslation("common");
-  const url = "https://habla.news/write";
+  const url = "https://showcase.pareto.space/write";
   const metadata = {
     title: t("habla"),
     summary: t("tagline"),

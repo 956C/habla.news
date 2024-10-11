@@ -13,7 +13,7 @@ const Communities = dynamic(
 
 export default function CommunitiesPage() {
   const { t } = useTranslation("common");
-  const url = "https://habla.news/c";
+  const url = "https://showcase.pareto.space/c";
   const metadata = {
     title: t("communities"),
     summary: t("communities-summary"),

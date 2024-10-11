@@ -527,7 +527,7 @@ function LoggedInUser({ pubkey, isLoggedIn, onClose }) {
 
   return (
     <Stack align="center" direction="row" spacing={2}>
-      <Link href="/write">
+      <Link href="/write" hidden={true}>
         <Button
           variant="dark"
           aria-label="Write"

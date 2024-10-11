@@ -1,6 +1,6 @@
 {
   "what-is-habla": "מה זה Habla?",
-  "habla-description": "Habla זה אפליקציית ווב מבוססת נוסטר (nostr) שמאפשרת לכל אחד להרוויח מהכתיבה שלו",
+  "pareto-description": "Habla זה אפליקציית ווב מבוססת נוסטר (nostr) שמאפשרת לכל אחד להרוויח מהכתיבה שלו",
   "intro": "בשתי דקות",
   "popular-posts": "פוסטים מובילים",
   "popular-authors": "מחברים מובילים",
@@ -55,7 +55,7 @@
   "delete": "מחיקה",
   "files": "קבצים",
   "auth": "אימות",
-  "search-description": "הדבק מזהה נוסטר (npub, nprofile, פתק, nevent או naddr), כתובת נוסטר (tony@habla.news) או כתובת דף עם מזהה נוסטר כדי לראות אותו בHabla",
+  "search-description": "הדבק מזהה נוסטר (npub, nprofile, פתק, nevent או naddr), כתובת נוסטר (tony@showcase.pareto.space) או כתובת דף עם מזהה נוסטר כדי לראות אותו בHabla",
   "search-more": "האשטאגים נתמכים, השתמש ב# לפני מילה כדי לסנן לפי האשטאגים.",
   "search-placeholder": "כתובת דף, מזהה נוסטר או כתובת נוסטר",
   "search-communities-placeholder": "חפש קהילות",
@@ -215,6 +215,7 @@
   "nav-search": "Search",
   "nav-communities": "Communities",
   "nav-bookmarks": "Bookmarks",
+  "nav-about": "About",
   "nostr-apps": "Apps",
   "nostr-link": "Nostr link",
   "read-only": "Your account is in read-only mode. Make sure Habla can sign events and try again."

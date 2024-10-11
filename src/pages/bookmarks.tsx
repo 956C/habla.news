@@ -24,7 +24,7 @@ export default function BookmarksPage() {
     [bookmarkLists]
   );
   const { t } = useTranslation("common");
-  const url = "https://habla.news/bookmarks";
+  const url = "https://showcase.pareto.space/bookmarks";
   const metadata = {
     title: t("bookmarks"),
   };

@@ -1,6 +1,6 @@
 {
   "what-is-habla": "Habla とは",
-  "habla-description": "Habla は、執筆によって誰もが収入を得られる nostr ベースの Web サービスです。",
+  "pareto-description": "Habla は、執筆によって誰もが収入を得られる nostr ベースの Web サービスです。",
   "intro": "2分で紹介",
   "popular-posts": "人気の投稿",
   "popular-authors": "人気の作者",
@@ -55,7 +55,7 @@
   "delete": "削除",
   "files": "ファイル",
   "auth": "認証",
-  "search-description": "nostr ID（npub、nprofile、note、neventまたはnaddr）、nostr アドレス（tony@habla.news）、またはnostr IDを持つURLを貼り付けると、Hablaでそれを見ることができます。",
+  "search-description": "nostr ID（npub、nprofile、note、neventまたはnaddr）、nostr アドレス（tony@showcase.pareto.space）、またはnostr IDを持つURLを貼り付けると、Hablaでそれを見ることができます。",
   "search-more": "ハッシュタグはサポートされています。ハッシュタグで活用するには、キーワードの前に # を入力してください。",
   "search-placeholder": "URL、nostr ID、nostrアドレス、またはハッシュタグ",
   "search-communities-placeholder": "Search for communities",
@@ -215,6 +215,7 @@
   "nav-search": "Search",
   "nav-communities": "Communities",
   "nav-bookmarks": "Bookmarks",
+  "nav-about": "About",
   "nostr-apps": "Apps",
   "nostr-link": "Nostr link",
   "read-only": "Your account is in read-only mode. Make sure Habla can sign events and try again."

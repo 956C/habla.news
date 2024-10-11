@@ -8,7 +8,7 @@ import Metadata from "@habla/components/Metadata";
 
 export default function Search() {
   const { t } = useTranslation("common");
-  const url = "https://habla.news/search";
+  const url = "https://showcase.pareto.space/search";
   const metadata = {
     title: t("search"),
     summary: t("search-summary"),

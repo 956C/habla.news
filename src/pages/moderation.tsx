@@ -8,7 +8,7 @@ import Moderation from "@habla/components/Moderation";
 
 export default function ModerationPage() {
   const { t } = useTranslation("common");
-  const url = "https://habla.news/moderation";
+  const url = "https://showcase.pareto.space/moderation";
   const metadata = {
     title: t("moderation"),
   };

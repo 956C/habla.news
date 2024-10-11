@@ -11,7 +11,7 @@ const Profile = dynamic(() => import("@habla/onboarding/Profile"), {
 
 export default function OnboardingProfile() {
   const { t } = useTranslation("common");
-  const url = "https://habla.news/onboarding/profile";
+  const url = "https://showcase.pareto.space/onboarding/profile";
   const metadata = {
     title: t("fill-profile"),
   };
