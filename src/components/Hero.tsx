@@ -13,7 +13,7 @@ export default function Hero() {
       gap={4}
       dir="auto"
     >
-      <Heading fontSize="xl">{t("what-is-habla")}</Heading>
+      <Heading fontSize="xl">{t("what-is-pareto")}</Heading>
       <Text fontSize="md" fontWeight={400}>
         {t("pareto-description")}
       </Text>

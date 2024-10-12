@@ -1,7 +1,9 @@
 export const names = {
   _: "7d4e04503ab26615dd5f29ec08b52943cbe5f17bacc3012b26220caa232ab14c",
   avichand: "5002cb487a6e03a781d20b4d115bfc0e96abf7802d9ba4ee49d75a0231a0d6d8",
+  blocktrainer: "b1b1d54bd3810f497d95e3522b496aa9128fee584cb564da2e4b0d088941e421",
   botev: "2c930918de42dca5d140c84c58e6d4f25b05a5d016171001c29c2a236d90c511",
+  einundzwanzig: "daf83d92768b5d0005373f83e30d4203c0b747c170449e02fea611a0da125ee6",
   getalby: "4657dfe8965be8980a93072bcfb5e59a65124406db0f819215ee78ba47934b3e",
   verbiricha:
     "7fa56f5d6962ab1e3cd424e758c3002b8665f7b0d8dcee9fe9e288d7751ac194",
@@ -13,8 +15,12 @@ export const names = {
     "2edbcea694d164629854a52583458fd6d965b161e3c48b57d3aff01940558884",
   everexpanding:
     "c9dccd5fbf13605415deb3ca03e9154cd77000f3fb1d98361e5cda4edce00d9a",
+  mikekuketz: "46a4087731df7384d590867906b556b8b1f78a8b64ffc77e9ddcaed2eaca408e",
   milosz: "dfe02069220e3f7a0ba6f641fc36cbbde3a42044a6cc9aebc4a44993d3e2fa29",
+  miesesgeld: "ec2d568a44f10861fd99f50b9d3d3c79ee19090d1bc83afa0e77418d9ae94b58",
+  nicojilch: "82eb9f9855686e6500c1e76df640f4a0b2b9d91fe1dac809a6eed009d0110da9",
   nout: "deba271e547767bd6d8eec75eece5615db317a03b07f459134b03e7236005655",
+  patrickbreyer: "879bb5d5e3e65fd73b00a1cdba4bf1edc3b238b66015da1153d879bc5fcffcf6",
   sperry: "11d0b66747887ba9a6d34b23eb31287374b45b1a1b161eac54cb183c53e00ef7",
   sikto: "50c59a1cb233d08d5a1fb493f520c6b5d7f77a2ba42e4666801a3e366b0a027e",
   gigabtc: "4d0068338af5ee79c06513deaaf02492247bbf7abd29f116e6e50c158ab6a677",
@@ -48,15 +54,14 @@ export const names = {
 
 // todo: group by category?
 export const featured = [
-  "jack",
-  "rabble",
-//  "fiatjaf",
-  "opensats",
+  "blocktrainer",
+  "einundzwanzig",
+  "nicojilch",
   "dergigi",
-  "guyswann",
-  "karnage",
+  "patrickbreyer",
+  "mikekuketz",
   "milosz",
-  "moon",
+  "miesesgeld",
   "nostreport",
   "getalby"
 ];

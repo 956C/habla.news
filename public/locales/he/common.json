@@ -1,6 +1,6 @@
 {
-  "what-is-habla": "מה זה Habla?",
-  "pareto-description": "Habla זה אפליקציית ווב מבוססת נוסטר (nostr) שמאפשרת לכל אחד להרוויח מהכתיבה שלו",
+  "what-is-pareto": "מה זה Pareto?",
+  "pareto-description": "Pareto זה אפליקציית ווב מבוססת נוסטר (nostr) שמאפשרת לכל אחד להרוויח מהכתיבה שלו",
   "intro": "בשתי דקות",
   "popular-posts": "פוסטים מובילים",
   "popular-authors": "מחברים מובילים",
@@ -55,7 +55,7 @@
   "delete": "מחיקה",
   "files": "קבצים",
   "auth": "אימות",
-  "search-description": "הדבק מזהה נוסטר (npub, nprofile, פתק, nevent או naddr), כתובת נוסטר (tony@showcase.pareto.space) או כתובת דף עם מזהה נוסטר כדי לראות אותו בHabla",
+  "search-description": "הדבק מזהה נוסטר (npub, nprofile, פתק, nevent או naddr), כתובת נוסטר (tony@showcase.pareto.space) או כתובת דף עם מזהה נוסטר כדי לראות אותו בPareto",
   "search-more": "האשטאגים נתמכים, השתמש ב# לפני מילה כדי לסנן לפי האשטאגים.",
   "search-placeholder": "כתובת דף, מזהה נוסטר או כתובת נוסטר",
   "search-communities-placeholder": "חפש קהילות",
@@ -71,12 +71,12 @@
   "community": "קהילה",
   "select-community": "בחר קהילה",
   "oops": "אופס, משהו השתבש",
-  "habla": "Habla",
+  "habla": "Pareto",
   "tagline": "דַבֵּר חופשי",
   "not-found": "לא נמצא",
   "not-found-long": "מצטער, לא יכולנו למצוא את העמוד שאתה מחפש",
   "server-error": "משהו השתבש",
-  "server-error-long": "מדובר כנראה בבאג בHabla, מצטערים על אי הנוחות",
+  "server-error-long": "מדובר כנראה בבאג בPareto, מצטערים על אי הנוחות",
   "share": "שתף",
   "share-cta": "שתף את המאמר הזה עם העולם!",
   "share-url": "כתובת עמוד",
@@ -95,7 +95,7 @@
   "add-avatar": "הוסף תמונת פרופיל",
   "image-url": "הזן כתובת תמונה, העלה מגיעה עוד מעט™️",
   "pick-topics": "בחר כמה תחומי עניין",
-  "follow-people": "Habla הרבה יותר נחמד ביחד",
+  "follow-people": "Pareto הרבה יותר נחמד ביחד",
   "backup-keys": "אל תאבד גישה לחשבון שלך, נתגעגע אליך!",
   "backup-keys-descr": "גבה את פרטי הכניסה לחשבון, זה רק לוקח כמה שניות",
   "backup": "גבה את פרטי הכניסה שלי",
@@ -218,5 +218,5 @@
   "nav-about": "About",
   "nostr-apps": "Apps",
   "nostr-link": "Nostr link",
-  "read-only": "Your account is in read-only mode. Make sure Habla can sign events and try again."
+  "read-only": "Your account is in read-only mode. Make sure Pareto can sign events and try again."
 }

@@ -1,6 +1,6 @@
 {
-  "what-is-habla": "¿Qué es Habla?",
-  "pareto-description": "Habla es una aplicación web basada en la nostr que permite a cualquiera ganar dinero por su escritura.",
+  "what-is-pareto": "¿Qué es Pareto?",
+  "pareto-description": "Pareto es una aplicación web basada en la nostr que permite a cualquiera ganar dinero por su escritura.",
   "intro": "Introducción",
   "popular-posts": "Artículos populares",
   "popular-authors": "Autores populares",
@@ -14,7 +14,7 @@
   "public-key-placeholder": "npub o dirección nostr (nip-05)",
   "create-account": "Crear cuenta",
   "create-account-descr": "Estamos trabajando en esta función. Mientras tanto puedes crear una cuenta nostr en ",
-  "articles": "Artículos",
+  "articles": "Global",
   "drafts": "Borradores",
   "highlights": "Destacados",
   "search": "Búsqueda",

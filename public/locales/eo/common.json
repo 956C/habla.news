@@ -1,6 +1,6 @@
 {
-  "what-is-habla": "Kio estas Habla?",
-  "pareto-description": "Habla estas nostr-bazita retaplikaĵo kiu ebligas iun ajn gajni monon per sia skribado.",
+  "what-is-pareto": "Kio estas Pareto?",
+  "pareto-description": "Pareto estas nostr-bazita retaplikaĵo kiu ebligas iun ajn gajni monon per sia skribado.",
   "intro": "2 min. antaŭparolo",
   "popular-posts": "Popularaj afiŝoj",
   "popular-authors": "Popularaj aŭtoroj",
@@ -55,7 +55,7 @@
   "delete": "Forstreki",
   "files": "Dosieroj",
   "auth": "Aŭtentigo",
-  "search-description": "Algluu nostr-identigilon (npub, nprofile, note, nevent aŭ naddr), nostr-adreson (tony@showcase.pareto.space) aŭ URL-on kun nostr-identigilo por vidi ĝin per Habla.",
+  "search-description": "Algluu nostr-identigilon (npub, nprofile, note, nevent aŭ naddr), nostr-adreson (tony@showcase.pareto.space) aŭ URL-on kun nostr-identigilo por vidi ĝin per Pareto.",
   "search-more": "Kradvortoj estas subtenita, skribu # antaŭ vortoj por filtri per kradvortoj.",
   "search-placeholder": "URL, nostr-identigilo, nostr-adreso aŭ kradvorto",
   "search-communities-placeholder": "Search for communities",
@@ -71,12 +71,12 @@
   "community": "Komunumo",
   "select-community": "Elekti komunumon",
   "oops": "Ho, io eraris",
-  "habla": "Habla",
+  "habla": "Pareto",
   "tagline": "Esprimu vian opinion",
   "not-found": "Ne trovita",
   "not-found-long": "Pardonu, ni ne povis trovi la paĝon, kiun vi serĉis",
   "server-error": "Io eraris",
-  "server-error-long": "Ĉi tiu verŝajnas eraron en Habla, pardonu pro la ĝeno",
+  "server-error-long": "Ĉi tiu verŝajnas eraron en Pareto, pardonu pro la ĝeno",
   "share": "Konigi",
   "share-cta": "Konigi ĉi tiun artikolon kun la mondo!",
   "share-url": "URL",
@@ -95,7 +95,7 @@
   "add-avatar": "Add a profile image",
   "image-url": "Enter a image URL, upload coming soon™️",
   "pick-topics": "Pick a few topics of interest",
-  "follow-people": "Habla is more fun together",
+  "follow-people": "Pareto is more fun together",
   "backup-keys": "Don't lose access to your account, we'd miss you!",
   "backup-keys-descr": "Backup your account login information, it only takes a few seconds!",
   "backup": "Back up my login",
@@ -218,5 +218,5 @@
   "nav-about": "About",
   "nostr-apps": "Apps",
   "nostr-link": "Nostr link",
-  "read-only": "Your account is in read-only mode. Make sure Habla can sign events and try again."
+  "read-only": "Your account is in read-only mode. Make sure Pareto can sign events and try again."
 }

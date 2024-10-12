@@ -1,6 +1,6 @@
 {
-  "what-is-habla": "Что такое Habla?",
-  "pareto-description": "Habla - это веб-приложение, на базе протокола Ностр, которое позволяет любому желающему получать вознаграждение в обмен на предоставляемые материалы.",
+  "what-is-pareto": "Что такое Парето?",
+  "pareto-description": "Парето - это веб-приложение, на базе протокола Ностр, которое позволяет любому желающему получать вознаграждение в обмен на предоставляемые материалы.",
   "intro": "Краткое пояснение",
   "popular-posts": "Популярные посты",
   "popular-authors": "Популярные авторы",
@@ -55,7 +55,7 @@
   "delete": "Удалить",
   "files": "Файлы",
   "auth": "Авторизация",
-  "search-description": "Paste a nostr ID (npub, nprofile, note, nevent or naddr), nostr address (tony@showcase.pareto.space) or a URL with a nostr ID to see it in Habla",
+  "search-description": "Paste a nostr ID (npub, nprofile, note, nevent or naddr), nostr address (tony@showcase.pareto.space) or a URL with a nostr ID to see it in Pareto",
   "search-more": "Hashtags are supported, use a #in front of a term to filter by hashtags.",
   "search-placeholder": "URL, nostr ID or nostr address",
   "search-communities-placeholder": "Искать сообщества",
@@ -71,7 +71,7 @@
   "community": "Сообщество",
   "select-community": "Выберите сообщество",
   "oops": "Ой, что-то пошло не так",
-  "habla": "Абла",
+  "habla": "Парето",
   "tagline": "Поделитесь своими мыслями",
   "not-found": "Не найдено",
   "not-found-long": "Мы не смогли найти страницу, которую вы ищете",
@@ -218,5 +218,5 @@
   "nav-about": "About",
   "nostr-apps": "Apps",
   "nostr-link": "Nostr link",
-  "read-only": "Your account is in read-only mode. Make sure Habla can sign events and try again."
+  "read-only": "Your account is in read-only mode. Make sure Pareto can sign events and try again."
 }
